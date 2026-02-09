@@ -55,8 +55,6 @@ docker-compose up
 
 ---
 
-## 📋 Week 1 Tasks
-
 ### Development Environment Setup
 
 **Script**: `scripts/setup_environment.sh`

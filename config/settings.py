@@ -25,7 +25,7 @@ class Settings:
         "epochs":               int(os.getenv('EPOCHS', 100)),
         "weights_num_classes":  80,  # Transfer learning with different nb classes
         
-        # Updated paths for Week 2 TFRecords
+        # Updated paths forTFRecords
         "train_dataset":        os.getenv('TRAIN_TFRECORD', "data/train.tf_record"),
         "val_dataset":          os.getenv('VAL_TFRECORD', "data/val.tf_record"),
         "test_dataset":         os.getenv('TEST_TFRECORD', "data/test.tf_record"),
@@ -41,7 +41,7 @@ class Settings:
     # Class names for barcode/QR detection
     class_names = ["Barcode", "QR"]
     
-    # Week 2: Data augmentation settings
+    # Data augmentation settings
     augmentation = {
         "enabled":              True,
         "brightness_range":     (0.8, 1.2),

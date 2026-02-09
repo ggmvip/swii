@@ -1,10 +1,10 @@
 #!/bin/bash
-# Complete data preparation pipeline for Week 2
+# Complete data preparation pipeline for
 
 set -e
 
 echo "========================================="
-echo "Data Preparation Pipeline - Week 2"
+echo "Data Preparation Pipeline"
 echo "========================================="
 
 # Dataset Split

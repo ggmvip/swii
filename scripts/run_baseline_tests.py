@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Run all baseline tests for Week 1
+Run all baseline tests
 """
 
 import subprocess
