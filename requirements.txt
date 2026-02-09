@@ -1,0 +1,34 @@
+# Core Dependencies
+tensorflow==2.8.0
+numpy==1.19.5
+opencv-python==4.5.5.64
+Pillow==8.4.0
+
+# Barcode/QR Processing
+pyzbar==0.1.9
+
+# API & Networking
+requests==2.27.1
+urllib3==1.26.9
+
+# Utilities
+absl-py==1.0.0
+psutil==5.9.0
+
+# Testing
+pytest==7.1.1
+pytest-cov==3.0.0
+
+# Data Processing
+pandas==1.3.5
+matplotlib==3.5.1
+scikit-learn==1.0.2
+
+# Configuration
+pyyaml==6.0
+
+# Caching
+cachetools==5.0.0
+
+# Progress bars
+tqdm==4.64.0
