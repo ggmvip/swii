@@ -1,0 +1,23 @@
+camera:
+  width: 1280
+  height: 720
+  fps: 30
+  
+model:
+  weights_path: 'data/model/yolov3_train_class2_final.weights.h5'
+  confidence_threshold: 0.5
+  iou_threshold: 0.5
+  
+logging:
+  csv_dir: 'logs/csvs'
+  images_dir: 'logs/images'
+  log_level: 'INFO'
+  
+api:
+  openfoodfacts_timeout: 5
+  max_retries: 3
+  
+performance:
+  max_fps: 30
+  frame_skip: 0
+  cache_size: 100
