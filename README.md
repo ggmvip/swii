@@ -122,7 +122,7 @@ python hg_cloud_inference.py
 | Variable | Default | Description |
 |---|---|---|
 | `USE_CLOUD_INFERENCE` | `True` | Set to `False` to use local TinyYolo model |
-| `CLOUD_SPACE_ID` | `fotonlink/barcode-detector` | Hugging Face Space ID |
+| `CLOUD_SPACE_ID` | `f-link/barcode-detector` | Hugging Face Space ID |
 | `MOTION_SENSITIVITY` | `25` | Pixel difference threshold (lower = more sensitive) |
 | `MOTION_AREA_THRESHOLD` | `500` | Pixel count required to trigger a scan |
 | `UPLOAD_COOLDOWN` | `2.0` | Seconds between cloud uploads |
@@ -300,4 +300,4 @@ Core packages from `requirements.txt`:
 
 - Keras Tiny YOLO v3 implementation: https://github.com/zzh8829/yolov3-tf2
 - OpenFoodFacts API: https://world.openfoodfacts.org
-- Hugging Face Space (cloud inference): https://huggingface.co/spaces/fotonlink/barcode-detector
+- Hugging Face Space (cloud inference): https://huggingface.co/spaces/f-link/barcode-detector
